@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin :0 ;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+  
+  
+body{
+    background-color: #fff ;
+}
+
+h1{
+    font-size: 35px;
+}
+
+p{
+    margin-bottom: 0px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 30px;
+}
+
+.financenav{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 70px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #fff ;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu_liste{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#boutonContact1{
+    background-color:  #a4c639 ;
+    color: #fff;  
+    width: 12%;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+
+.boutonContact2{
+    background-color:  #a4c639 ;
+    color: #fff;  
+    border-radius: 20px;
+    padding: 10px;
+    /*transform : translateY(-250%);*/
+    /*margin-left: 1000px;*/
+    border-color: white ;
+   
+}
+
+.ready{
+    display: block;
+    padding: 10px;
+    justify-content: center;
+    text-align: left;
+    margin: 70px ;
+    color: #fff;
+    margin-left: 11% ;
+}
+
+.entete{
+    background-image: url("images/slide_01.jpg");
+    height: 700px ;
+}
+
+
+.call{
+   font-size: 30px;
+   margin: 10px;
+   color: #fff;
+}
+
+.mauris{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.requestbouton{
+    display: flex;
+    justify-content: space-around;
+    background-color:  #a4c639 ;
+    color: #fff;
+}
+
+h2{
+    font-weight: 700;
+}
+
+h3{
+    color:  #a4c639 ;
+}
+
+.service{
+    color:  #a4c639 ;
+}
+
+.financialServices{
+    display: flex;
+    justify-content: center;
+}
+
+.data{
+    display: block;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+    margin: 20px;
+}
+
+.boutonContact3{
+    background-color:  #a4c639 ;
+    color: #fff;  
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    width: 50%;
+}
+
+.essai{
+    margin: 20px;
+    align-items: center ;
+}
+
+
+footer{
+    text-align: center;
+}
+
+.loremwork{
+    background-color : #333 ;
+    background-image: url("images/fun-facts-bg.jpg");
+    display: flex ;
+    justify-content: space-around;
+    color: #fff;
+    padding: 100px;
+}
+
+.lorem{
+    display: block;
+    justify-content: space-around;
+    color: #fff
+}
+
+/*.workin{
+    display: block;
+    justify-content: space-around;
+    padding: 50px;
+}*/
+
+/*.workout{
+    display: block;
+    justify-content: space-around;
+    padding: 50px;
+}*/
+
+.work{
+    font-size: 20px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around ;
+}
+
+.boutonContact4{
+    background-color:  #a4c639 ;
+    color: #fff;  
+    border-radius: 20px;
+    padding: 10px;
+    border: none; 
+    width: 25%;
+}
+
+.work1{ 
+    border: none;
+    padding: 40px;
+    margin: 20px;
+    width: 50%;
+    background-color:  #333 ;
+}
+
+.work2{
+    border: none ;
+    padding: 40px ;
+    margin: 20px;
+    width: 50% ;
+    background-color:  #333 ;
+}
+
+.work3{ 
+    border: none;
+    padding: 40px;
+    margin: 20px;
+    width: 50%;
+    background-color:  #333 ;
+}
+
+h4{
+    font-size: 14px;
+}
+
+.work4{
+    border: none ;
+    padding: 40px ;
+    margin: 20px;
+    width: 50%;
+    background-color:  #333 ;
+}
+
+.whophoto{
+    display: flex;
+    justify-content: center;
+}
+
+.who{
+    display: block;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+}
+
+.whoecrit{
+    margin-left: 30px;
+}
+
+.whatWalkerSmith{
+    background-color: #f6f6f6;
+    padding: 50px;
+    text-align: center;
+}
+
+.GeorgeWalker{
+    display: flex;
+    justify-content: center;
+}
+
+.walker{
+    display: block;
+    justify-content: space-around;
+    background-color: #fff;
+    text-align:  center;
+    margin : 20px;
+    padding: 20px;
+    width: 40%;
+}
+
+.bouton1{
+    background-color : #ccc;
+    padding: 10px;
+    border-radius: 9000px;
+    color: #fff;
+}
+
+.bouton{
+    display: flex;
+    justify-content: space-around;
+}
+
+.p{
+    font-size: 2px;
+}
+
+.about{
+    color: #a4c639;
+}
+
+.requestform{
+    background-color: #a4c639;
+    padding: 70px;
+    margin: 100px;
+}
+
+
+.input{
+    border-radius: 20px ;
+    background-color: #fff;
+    padding: 10px;
+    width: 25%;
+    border: none;
+    margin: 10px;
+}
+
+.textarea{
+    border-radius: 20px ;
+    background-color: #fff;
+    padding: 15px;
+    margin: 25px;
+    width: 85%;
+    border: none;
+    transform: translateX(-2%);
+    
+}
+
+.boutonContact5{
+    background-color:  #a4c639 ;
+    color: white;  
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    margin-left: -500px;
+    transform: translateY(100%);
+    border-color: #fffffffd;
+    width: 15%;
+}
+
+.form{
+    margin-left: 80px ;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+    padding: 40px;
+}
+
+.prefooter{
+    display : flex ;
+    justify-content: space-around;
+    color :#fff ;
+    background-color: #110e0efa;
+    padding: 50px;
+}
+
+.finance{
+    display: block;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.footer{
+    background-color: #333;
+}
+
+.input2{
+    border-radius: 20px ;
+    background-color:  #cccccc23; ;
+    padding: 10px;
+    border: none;
+    margin: 10px ;
+    width: 50%;
+}
+
+.textarea2{
+    border-radius: 20px ;
+    background-color: #cccccc23;
+    padding: 15px;
+    margin: 25px;
+    border: none;
+    margin-left: 5px ;
+}
+
+.boutonContact6{
+    background-color:  #a4c639 ;
+    color: #fff;  
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    margin-left: -250px;
+    transform: translateY(50%);
+    width: 50%;
+}
+
+.financeform{
+    margin-left: -20px;
+}
+
+.footer{
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+}
+.f{
+    color: #fff;
+    font-size : 14px ;
+}
+
+/*Style for About*/
+.entete2{
+    background-image: url("images/page-heading-bg.jpg");
+    height: 455px ;
+}
+
+.solidphoto{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 70px;
+}
+
+.solid{
+    display: block;
+    justify-content: space-around;
+}
+
+.team{
+    background-color: #f6f6f6;
+}
+
+.teamMembers{
+    display: flex;
+    justify-content: center ;
+}
+
+.personne{
+    background-color: #fff;
+    margin: 20px;
+}
+
+.pers{
+    margin: 20px;
+    padding: 5px;
+}
+
+/*Style for Services*/
+.services{
+    display: flex;
+    justify-content: space-around;
+}
+
+.market{
+    background-color: #a4c639;
+    padding: 50px;
+    margin: 20px;
+}
+
+.photo{
+    display: block;
+}
+.art1{
+    display: block;
+}
+
+.art2{
+    display: none;
+}
+ /*Stylefor contact*/
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+.device{
+    display: block;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.deviceloc{
+    display: block;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    width: 20%;
+}
+
+.requestform2{
+    padding: 70px;
+    margin: 100px;
+}
+
+.caller{
+    background-color :#f6f6f6;
+}
+
+.v{
+    color: #333;
+}
+
+.h1_p{
+    transform: translateY(100%);
+}
